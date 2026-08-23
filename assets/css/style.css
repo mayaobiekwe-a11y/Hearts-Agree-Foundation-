@@ -421,11 +421,6 @@ section + section { border-top: 1px solid rgba(43,43,40,0.08); }
   margin: 0.4rem 0 0;
 }
 
-/* ---------- Sage impact band ---------- */
-.impact-band {
-  background: var(--sage-soft);
-}
-
 /* ---------- Hero photo panel ---------- */
 .hero-photo {
   margin-top: clamp(2rem, 5vw, 3rem);
