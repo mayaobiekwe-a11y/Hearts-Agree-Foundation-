@@ -681,16 +681,6 @@ section + section { border-top: 1px solid rgba(43,43,40,0.08); }
   .glossary-row { grid-template-columns: 1fr; gap: 0.5rem; }
 }
 
-/* ---------- Pull line (single emphasized sentence) ---------- */
-.pull-line {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-size: 1.25rem;
-  color: var(--maroon);
-  margin: 1.4em 0;
-  max-width: 52ch;
-}
-
 /* ---------- Vertical timeline (Story) ---------- */
 .timeline {
   position: relative;
