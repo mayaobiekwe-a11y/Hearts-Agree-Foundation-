@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function initRevealOnScroll() {
-  const selector = ".pillar-grid > div, .board-grid > div, .action-grid > div, .growth-col, .quote, .photo-grid img, .timeline-photo, .portrait-photo";
+  const selector = ".pillar-grid > div, .board-grid > div, .action-grid > div, .growth-col, .ways-list li, .quote, .photo-grid img, .timeline-photo, .portrait-photo";
   const groupCounts = new Map();
   const toObserve = [];
 
@@ -64,7 +64,7 @@ function initRevealOnScroll() {
 }
 
 function initCountUp() {
-  const targets = document.querySelectorAll(".hero-stat .num, .growth-value");
+  const targets = document.querySelectorAll(".hero-figure-num, .growth-value");
   if (!targets.length) return;
 
   const animate = (el) => {
