@@ -3,17 +3,17 @@
    ========================================================================== */
 
 :root {
-  --forest: #1F2A44;
-  --forest-soft: #33456B;
-  --cream: #F7F1E4;
-  --cream-dim: #EDE2C8;
-  --sage: #C1552C;
-  --sage-soft: #F0E2C8;
-  --gold: #C99A3B;
-  --charcoal: #2A2620;
+  --forest: #4A4A32;
+  --forest-soft: #6B6E52;
+  --cream: #F2ECDF;
+  --cream-dim: #E8DFC9;
+  --sage: #3D2B1F;
+  --sage-soft: #DDD2BC;
+  --gold: #B5723A;
+  --charcoal: #2E2A22;
   --white: #FFFFFF;
-  --terracotta: #C1552C;
-  --terracotta-soft: #E8C3A9;
+  --terracotta: #B5723A;
+  --terracotta-soft: #DDBB98;
 
   --font-display: "Fraunces", Georgia, "Times New Roman", serif;
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
