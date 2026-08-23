@@ -3,18 +3,18 @@
    ========================================================================== */
 
 :root {
-  --forest: #4A4A32;
+  --forest: #464528;
   --forest-soft: #6B6E52;
   --cream: #F2ECDF;
   --cream-dim: #E8DFC9;
   --sage: #3D2B1F;
   --sage-soft: #DDD2BC;
-  --gold: #B5723A;
+  --gold: #AE5A26;
   --charcoal: #2E2A22;
   --white: #FFFFFF;
-  --terracotta: #B5723A;
+  --terracotta: #AE5A26;
   --terracotta-soft: #DDBB98;
-  --maroon: #552526;
+  --maroon: #511B1B;
   --maroon-soft: #C99A9B;
 
   --font-display: "Petrona", Georgia, "Times New Roman", serif;
@@ -131,6 +131,11 @@ section + section { border-top: 1px solid rgba(43,43,40,0.08); }
   color: inherit;
   border-bottom: 2px solid var(--gold);
   padding-bottom: 0.1em;
+}
+.brand-logo {
+  height: 46px;
+  width: auto;
+  display: block;
 }
 
 .nav-links {
