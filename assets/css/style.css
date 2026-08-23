@@ -232,6 +232,12 @@ section + section { border-top: 1px solid rgba(43,43,40,0.08); }
   gap: var(--gap);
   align-items: center;
 }
+.portrait-photo {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
 .split.reverse .split-media { order: 2; }
 @media (max-width: 860px) {
   .split { grid-template-columns: 1fr; }
