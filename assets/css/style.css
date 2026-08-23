@@ -119,14 +119,19 @@ section + section { border-top: 1px solid rgba(43,43,40,0.08); }
   margin: 0 auto;
 }
 .brand {
-  font-family: var(--font-display);
-  font-size: 1.15rem;
-  font-weight: 600;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 700;
   color: var(--forest);
-  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
   white-space: nowrap;
 }
-.brand span { color: var(--gold); }
+.brand span {
+  color: inherit;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 0.1em;
+}
 
 .nav-links {
   display: flex;
