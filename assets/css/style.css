@@ -232,6 +232,10 @@ section + section { border-top: 1px solid rgba(43,43,40,0.08); }
   gap: var(--gap);
   align-items: center;
 }
+.tint {
+  background: var(--cream-dim);
+}
+
 .portrait-photo {
   width: 100%;
   aspect-ratio: 3/4;
