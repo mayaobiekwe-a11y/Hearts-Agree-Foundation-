@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function initRevealOnScroll() {
-  const selector = ".pillar-grid > div, .board-grid > div, .action-grid > div, .growth-col, .ways-list li, .quote, .photo-grid img, .timeline-photo, .portrait-photo";
+  const selector = ".pillar-grid > div, .board-grid > div, .action-grid > div, .growth-col, .ways-list li, .initiative-list li, .glossary-row, .timeline-item, .quote, .photo-grid img, .portrait-photo";
   const groupCounts = new Map();
   const toObserve = [];
 
@@ -57,10 +57,17 @@ function initRevealOnScroll() {
         }
       });
     },
-    { threshold: 0.15, rootMargin: "0px 0px -40px 0px" }
+    { threshold: 0.01, rootMargin: "0px 0px 150px 0px" }
   );
 
   toObserve.forEach((el) => observer.observe(el));
+
+  // Safety net: never let content stay hidden if a fast/instant scroll
+  // skips past an element without the observer catching it in transit.
+  setTimeout(() => {
+    toObserve.forEach((el) => el.classList.add("is-visible"));
+    observer.disconnect();
+  }, 4000);
 }
 
 function initCountUp() {
