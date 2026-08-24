@@ -623,7 +623,8 @@ section + section { border-top: 1px solid rgba(43,43,40,0.08); }
   padding: clamp(2.5rem, 6vw, 4rem) 0 clamp(3rem, 7vw, 5rem);
 }
 .intro-headline {
-  max-width: 20ch;
+  max-width: 26ch;
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
   margin-bottom: clamp(2rem, 5vw, 3rem);
 }
 .intro-body {
