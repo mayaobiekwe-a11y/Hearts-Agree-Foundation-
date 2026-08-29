@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function initRevealOnScroll() {
-  const selector = ".pillar-grid > div, .board-grid > div, .action-grid > div, .growth-col, .ways-list li, .initiative-list li, .glossary-row, .timeline-item, .quote, .photo-grid img, .portrait-photo";
+  const selector = ".pillar-grid > div, .board-grid > div, .action-grid > div, .growth-col, .ways-list li, .initiative-list li, .glossary-row, .timeline-item, .quote, .sub-hero p, .photo-grid img, .portrait-photo";
   const groupCounts = new Map();
   const toObserve = [];
 
