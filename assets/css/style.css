@@ -292,7 +292,7 @@ section + section { border-top: 1px solid rgba(43,43,40,0.08); }
   max-width: 26ch;
   margin: 0 auto;
 }
-.sub-hero .highlight {
+.highlight {
   color: var(--gold);
   font-style: italic;
 }
